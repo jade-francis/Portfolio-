@@ -3,3 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 10px;
+margin-left: 10px;}
+#logo{
+  color: #6070FF;
+}
+.navbar ul{
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  color: #344563;
+}
+.navbar ul li:hover{
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+}
+
+.main{
+  height: 50vh;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.social-links ul{
+
+}
