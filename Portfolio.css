@@ -87,7 +87,7 @@ height: 50vh;
   font-family: Poppins;
 }
 
-#Top_1 h2{
+#Tonic_contents h2{
 font-weight: 700;
 font-size: 40px;
 line-height: 52px;
@@ -95,6 +95,3 @@ letter-spacing: 0%;
 color: #091e42;
 }
 
-#Top_1 ul{
-  display: flex;
-}
