@@ -9,7 +9,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-right: 10px;
-margin-left: 10px;}
+margin-left: 10px;
+position: sticky;}
 #logo{
   color: #6070FF;
 }
@@ -23,6 +24,7 @@ margin-left: 10px;}
   color: #03132e;
   background-color: #c2d2ee;
   border-radius: 5px;
+  border-style: groove;
 }
 
 .main{
@@ -31,7 +33,68 @@ margin-left: 10px;}
   background-repeat: no-repeat;
   background-position: center;
 }
-
+#Hi{
+  font-family: Poppins;
+}
+#Hi h1{
+  color: #091e42;
+  letter-spacing: 0.37px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  vertical-align: middle;
+}
+#Hi p{
+  color: #344563;
+  font-weight: 400;
+  size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+#Hi h5{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #7f8cff;
+}
 .social-links ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  align-items: center;
+}
+.social-links li:hover{
+  color: #505F79;
+  background-color: #344563;
+  border-radius: 5px;
+  border-style: ridge;
+}
 
+.Tonic{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#tonic{
+display: flex;
+height: 50vh;
+}
+
+#Tonic_contents{
+  padding: 24px;
+  font-family: Poppins;
+}
+
+#Top_1 h2{
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+letter-spacing: 0%;
+color: #091e42;
+}
+
+#Top_1 ul{
+  display: flex;
 }
