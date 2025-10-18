@@ -93,5 +93,73 @@ font-size: 40px;
 line-height: 52px;
 letter-spacing: 0%;
 color: #091e42;
+margin-bottom: 7px;
 }
 
+#Top1 ul{
+display: flex;
+align-items: center;
+font-family: Poppins;
+line-height: 24px;
+letter-spacing: 0%;
+font-size: 18px;
+gap: 10px;
+}
+
+#Top1 ul p{
+color: #344563;
+font-weight: 500;
+margin-right: 10px;
+align-items: center;
+margin-bottom: 16px;
+}
+
+#Top1 li{
+  color: #6b778c;
+  font-weight: 400;
+  list-style-type: disc;
+  margin-right: 10px;
+}
+
+#Tonic_contents p{
+  color: #344563;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin-top: 20px;
+}
+
+#lang1 ul{
+gap: 8px;
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+#lang1 li{
+list-style-type: none;
+font-size: 12px;
+font-weight: 500;
+color: #6070ff;
+background-color: #ebebff;
+}
+
+#lang1 li:hover{
+border-style: groove;
+background-color: #ebebff;
+color: #6070ff;
+}
+
+.btn{
+  letter-spacing: 3%;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+.btn:hover{
+  border-style: ridge;
+  background-color: #6070ff;  
+  color:#396df2;
+}
