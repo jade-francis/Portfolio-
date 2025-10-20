@@ -27,6 +27,13 @@ position: sticky;}
   border-style: groove;
 }
 
+.all{
+  background-color:#f4f5f7 ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+}
 .main{
   height: 50vh;
   background-image: url("background.png");
@@ -75,7 +82,9 @@ position: sticky;}
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-bottom: 40px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  width: 900px
 }
 #tonic{
 display: flex;
@@ -136,16 +145,10 @@ font-weight: 500;
 color: #6070ff;
 background-color: #ebebff;
 }
-#lang1 li:hover{
-border-style: groove;
-background-color: #ebebff;
-color: #6070ff;
-}
 .btn button{
   margin-top: 10px;
   border-radius: 8px;
   color: #396df2;
-  gap: 10px;
   line-height: 24px;
   font-family: Poppins;
   letter-spacing: 3%;
@@ -160,8 +163,18 @@ background-color: #ffffff;
 font-family: Poppins;
 padding: 24px;
 margin: 20px, 10px;
+display: flex;
+align-items: center;
+border-radius: 12px;
+background-color: #ffffff;
+width: 900px;
+gap: 30px;
 }
-
+#MPS2{
+height: 50vh;
+margin-right: 50px;
+padding: 24px;
+}
 #MPS1{
   letter-spacing: 0%;
 }
@@ -171,28 +184,25 @@ margin: 20px, 10px;
   font-size: 40px;
   line-height: 52px;
 }
-
 #MPS1 ul{
   display: flex;
   gap: 10px;
   margin-top: 5px;
   padding-top: 5px;
 } 
-
 #MPS1 ul p{
+display: flex;
 color: #344563;
 font-size: 18px;
 font-weight: 500;
 padding-right: 20px;
 }
-
 #MPS1 ul li{
   color: #6b778c;
   padding-right: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
-
 .MPS p{
   font-size: 16px;
   font-weight: 400;
@@ -200,7 +210,6 @@ padding-right: 20px;
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
-
 #lang2 ul{
   display: flex;
   gap: 8px;
@@ -209,8 +218,9 @@ padding-right: 20px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 3%;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
 #lang2 li{
   padding-right: 10px;
   margin-right: 10px;
@@ -219,18 +229,295 @@ padding-right: 20px;
   color: #6070FF;
   margin-bottom: 10px;
 }
-
 .MPS button{
   margin-top: 10px;
-  border-radius: 8px;
   color: #396df2;
-  gap: 10px;
+  line-height: 24px;
+  font-family: Poppins;
+  letter-spacing: 3%;
+}
+.MPS button:hover{
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+  border-style: groove;
+}
+#propic{
+  display: flex;
+  height: 50vh;
+}
+
+.Facebook{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  gap: 30px;
+  width: 900px;
+}
+
+#fbimg{
+  display: flex;
+  height: 50vh;
+}
+
+#Facebook_contents{
+  font-family: Poppins;
+}
+
+#t1{
+  font-family: Poppins;
+}
+
+#t1 h2{
+  color: #091e42;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+}
+
+#t1 ul{
+  display: flex;
+  align-items: center;
+  list-style-type: disc;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  gap:12px;
+  margin: 8px 0px;
+}
+
+#t1 ul p{
+  color: #344563;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+#t1 li{
+  color: #6b778c;
+  margin-left: 12px;
+}
+
+#Facebook_contents p{
+color: #344563;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+}
+
+#lang3 ul{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #6070FF;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 3%;
+}
+
+#lang3 li{
+  border: 1px #ebebff;
+  background-color: #ebebff;
+}
+
+#Facebook_contents button{
+  margin-top: 10px;
+  color: #396df2;
   line-height: 24px;
   font-family: Poppins;
   letter-spacing: 3%;
 }
 
-.MPS button:hover{
-  border-style: ridge;
+#Facebook_contents button:hover{
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+  border-style: groove;
+ }
+
+
+.Uber{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  gap: 30px;
+  width: 900px;
+  font-family: Poppins;
 }
 
+#Uber_contents{
+  padding: 24px;
+  gap: 24px;
+  font-family: Poppins;
+}
+
+#U1 h2{
+  color: #091e42;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+}
+
+#U1 ul{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+ margin: 5px 0px;
+ padding: 2.5px 0px;
+}
+
+#U1 ul p{
+  color: #344563;
+  font-weight: 500;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+#U1 ul li{
+color: #6b778c;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+margin-left: 8px;
+}
+
+#Uber_contents p{
+  color: #344563;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin: 5px 0px;
+  padding: 2.5px 0px;
+}
+
+#lang4 ul{
+  margin: 5px 0px;
+  padding: 2.5px 0px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#lang4 li{
+  color: #6070FF;
+  background-color: #ebebff;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 3%;
+  line-height: 16px;
+  list-style: none;
+  margin: 5px 0px;
+  padding: 2.5px 0px;
+}
+
+#Uber_contents button{
+  color: #396df2;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 3%;
+  line-height: 24px;
+  font-family: Poppins;
+}
+
+#Uber_contents button:hover{
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+  border-style: groove;
+ }
+
+#uberimg{
+  display: flex;
+  height: 50vh;
+}
+
+.About{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  gap: 30px;
+  width: 900px;
+  font-family: Poppins;  
+}
+
+#myself{
+  gap: 12px;
+  font-family: Poppins;
+}
+
+#myself h2{
+color: #091e42;
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0%;
+margin: 2.5px 0px;
+padding: 2.5px 0px;
+}
+
+#myself p{
+color: #344563;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+margin: 2.5px 0px;
+padding: 2.5px 0px;
+}
+
+#myself h5{
+  color: #7f8cff;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  margin: 10px 0px;
+  padding: 5px 0px;
+
+}
+
+#myself ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 16px;
+  margin: 2.5px 0px;
+  padding: 2.5px 0px;
+
+}
+
+#myself li:hover{ 
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+  border-style: groove;
+}
+
+#myself button{
+  margin: 2.5px 0px;
+  padding: 2.5px 0px;
+  color: #396df2;
+  letter-spacing: 3%;
+  line-height: 24px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+#myself button:hover{
+  color: #03132e;
+  background-color: #c2d2ee;
+  border-radius: 5px;
+  border-style: groove;
+}
