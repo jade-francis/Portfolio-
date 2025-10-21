@@ -522,10 +522,4 @@ padding: 2.5px 0px;
   border-style: groove;
 }
 
-#imgs ul{
-display: flex;
-align-items: center;
-gap: 30px;
-list-style: none;
-}
 
