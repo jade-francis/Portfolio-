@@ -524,18 +524,14 @@ padding: 2.5px 0px;
 }
 
 #imgs ul{
-  display: flex;
-  gap: 30px
+  display:flex;
+  padding: 12px;
+  gap:12px;
 }
 
-#imgs li{
-  list-style: none;
-  width: 35px;
-  margin-right: 50px;
-}
-
-#languages ul{
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
+  .js, .html, .css{
+    background-color: #F7F7F9;
+    width: 112px;
+    height: 120px;
+    border-radius: 8px;
+  }
