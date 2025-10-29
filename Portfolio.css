@@ -612,14 +612,65 @@ border-radius: 8px;
   }
 
   .Contact{
-   background-image: url('ctnt.svg');
+    background: url('background.png') no-repeat center, url('ctnt.svg')no-repeat center ;
    display: flex;
    flex-direction: column;
    justify-content: center;
+   gap: 10px;
    align-items: center;
    border-radius: 12px;
-   gap: 30px;
    width: auto;
    font-family: Poppins;
    padding: 24px;
+  }
+
+  .Contact form{
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+   width: 30%;
+  }
+
+  .Contact h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .Contact p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .Contact ::placeholder{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #172B4D;
+    text-align: start;
+  }
+
+  .Contact textarea{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #B3BAC5;
+  }
+
+  .Contact button{
+   color: #396df2;
+   line-height: 24px;
+   font-family: Poppins;
+   letter-spacing: 3%;
+   width: 25%;
+   align-self: center;
   }
