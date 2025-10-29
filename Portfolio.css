@@ -28,6 +28,13 @@ position: sticky;}
   border-style: groove;
 }
 
+.in{
+   background-color:#f4f5f7 ; 
+   gap:20px;
+   display: flex;
+   flex-direction: column ;
+}
+
 .all{
   background-color:#f4f5f7 ;
   display: flex;
@@ -162,19 +169,19 @@ background-color: #ebebff;
 border: 1px #dfe1e6;
 background-color: #ffffff;
 font-family: Poppins;
-padding: 24px;
+padding:12px 12px 24px 24px;
 margin: 20px, 10px;
 display: flex;
 align-items: center;
 border-radius: 12px;
 background-color: #ffffff;
 width: 900px;
+height: 450px;
 gap: 30px;
 }
 #MPS2{
 height: 50vh;
 margin-right: 50px;
-padding: 24px;
 }
 #MPS1{
   letter-spacing: 0%;
@@ -230,14 +237,14 @@ padding-right: 20px;
   color: #6070FF;
   margin-bottom: 10px;
 }
-.MPS button{
+#MPS2 button{
   margin-top: 10px;
   color: #396df2;
   line-height: 24px;
   font-family: Poppins;
   letter-spacing: 3%;
 }
-.MPS button:hover{
+#MPS2 button:hover{
   color: #03132e;
   background-color: #c2d2ee;
   border-radius: 5px;
@@ -444,7 +451,8 @@ margin-left: 8px;
 }
 
 .About{
-  background-color: #ffffff;
+  background-image: url('dwn.png');
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   border-radius: 12px;
@@ -523,6 +531,34 @@ padding: 2.5px 0px;
   border-style: groove;
 }
 
+.lan{
+  display: flex;
+  width: 68px;
+  height: 72px;
+  gap: 50%;
+}
+
+.lan p{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #344563;
+  height: 24px;
+  padding-top: 24px;
+  padding-left: 24px;
+  opacity: 1;
+}
+
+#dwn{
+top: 16px;
+left: 618px;
+padding: 24px 0px 0px 150px;
+border-radius: 8px;
+}
+/* continue from above */
 #imgs ul{
   display:flex;
   padding: 12px;
@@ -534,4 +570,20 @@ padding: 2.5px 0px;
     width: 112px;
     height: 120px;
     border-radius: 8px;
+  }
+
+  .js img, .html img, .css img{
+    margin-top: 12px;
+    margin-left: 12px;
+    width: 48px;
+    height: 48px;
+  }
+  .js p , .html p, .css p{
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-weight: 500;
+    color: #253858;
+    margin-top: 8px;
   }
