@@ -612,7 +612,11 @@ border-radius: 8px;
   }
 
   .Contact{
-    background: url('background.png') no-repeat center, url('ctnt.svg')no-repeat center ;
+    background-image: url('forback.png');
+    background-color:#6070FF ;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
    display: flex;
    flex-direction: column;
    justify-content: center;
