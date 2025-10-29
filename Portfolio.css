@@ -33,7 +33,6 @@ position: sticky;}
    gap:20px;
    display: flex;
    flex-direction: column ;
-   align-items: center;
 }
 
 .all{
@@ -456,10 +455,13 @@ margin-left: 8px;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
+  justify-items: center;
+  justify-content: center;
   border-radius: 12px;
   gap: 30px;
-  width: 900px;
-  font-family: Poppins;  
+  width: auto;
+  font-family: Poppins;
+  padding: 0px 12px 0px 24px;
 }
 
 #myself{
@@ -592,6 +594,9 @@ border-radius: 8px;
   #frame{
     display: flex;
     gap: 50px;
+    border-bottom: 1px solid #6b778c;
+    border-bottom-style: inset;
+
   }
   
   #rgt{
@@ -605,5 +610,6 @@ border-radius: 8px;
   #ski{
     display: flex;
     gap: 50px;
-    border: 1px solid red;
+    border-bottom: 1px solid #6b778c;
+    border-bottom-style: inset;
   }
