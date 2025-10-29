@@ -598,18 +598,28 @@ border-radius: 8px;
     border-bottom-style: inset;
 
   }
-  
   #rgt{
     padding: 0px 0px 0px 170px;
   }
-  
   #tgr{
     padding: 0px 0px 0px 230px;
   }
-  
   #ski{
     display: flex;
     gap: 50px;
     border-bottom: 1px solid #6b778c;
     border-bottom-style: inset;
+  }
+
+  .Contact{
+   background-image: url('ctnt.svg');
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 12px;
+   gap: 30px;
+   width: auto;
+   font-family: Poppins;
+   padding: 24px;
   }
