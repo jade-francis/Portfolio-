@@ -29,8 +29,8 @@ position: sticky;}
 }
 
 .in{
+  gap: 50px;
    background-color:#f4f5f7 ; 
-   gap:20px;
    display: flex;
    flex-direction: column ;
 }
