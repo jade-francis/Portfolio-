@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -522,4 +523,19 @@ padding: 2.5px 0px;
   border-style: groove;
 }
 
-#imgs 
+#imgs ul{
+  display: flex;
+  gap: 30px
+}
+
+#imgs li{
+  list-style: none;
+  width: 35px;
+  margin-right: 50px;
+}
+
+#languages ul{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
