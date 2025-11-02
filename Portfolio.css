@@ -734,11 +734,13 @@ position: sticky;}
   gap: 70px;
 }
 .main{
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 10px;
   height: 50vh;
   background-image: url("background.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: auto;
+  width: 400px;
 }
 #Hi{
   font-family: Poppins;
@@ -754,9 +756,9 @@ position: sticky;}
 #Hi p{
   color: #344563;
   font-weight: 400;
-  size: 20px;
+  font-size: 15px;
   line-height: 15px;
-  letter-spacing: 0%;
+  padding: 5px 60px 0px 0px;
 }
 #Hi h5{
   font-weight: 500;
